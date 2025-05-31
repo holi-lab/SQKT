@@ -1,6 +1,6 @@
 # Knowledge Tracing Transformer (SQKT)
 
-!(model_fig.png)
+![model_fig](model_fig.png)
 ---
 
 ## Setup
