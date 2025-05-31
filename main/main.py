@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/home/sqkt')
+sys.path.append('/main')
 import random
 import torch
 from torch import nn
