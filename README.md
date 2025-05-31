@@ -31,7 +31,7 @@ Houses instructional and solution texts for each problem.
 | `Instruction Content` | Problem description       |
 | `Solution Content`    | Reference solution text   |
 
----
+
 
 ### 2. `submissions.csv`
 
@@ -44,7 +44,7 @@ Contains student submissions, their code, and timestamps.
 | `contents`         | Submitted code text                    |
 | `created_datetime` | Submission time (Unix timestamp in ms) |
 
----
+
 
 ### 3. `questions.csv`
 
@@ -58,7 +58,7 @@ Logs of help center interactions (both student questions and teacher responses).
 | `post_created_datetime` | When the entry was posted                     |
 | `is_student`            | `True` for student, `False` for teacher reply |
 
----
+
 
 ### 4. `scores.csv`
 
