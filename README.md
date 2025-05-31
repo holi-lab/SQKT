@@ -1,7 +1,6 @@
 # Knowledge Tracing Transformer (SQKT)
 
-This repository provides the code for a knowledge tracing model that leverages student code submissions, problem texts, student questions, and skill extraction to predict the likelihood of success on future programming exercises. It integrates a Transformer encoder and CodeT5 for both representation learning and auxiliary generation tasks.
-
+!(model_fig.png)
 ---
 
 ## Setup
