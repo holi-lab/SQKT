@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/home/sqkt')
+sys.path.append('/main')
 
 import pandas as pd
 import numpy as np
