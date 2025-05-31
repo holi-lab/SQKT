@@ -23,7 +23,7 @@ The model requires four types of CSV files per dataset. These are usually locate
 
 ### 1. `exercises.csv`
 
-Houses instructional and solution texts for each problem.
+Houses instructional text and solution code blocks for each problem.
 
 | Column                | Description               |
 | --------------------- | ------------------------- |
@@ -48,7 +48,7 @@ Contains student submissions, their code, and timestamps.
 
 ### 3. `questions.csv`
 
-Logs of help center interactions (both student questions and teacher responses).
+Logs of student-educator interactions (both student questions and educator responses and its timestamp).
 
 | Column                  | Description                                   |
 | ----------------------- | --------------------------------------------- |
