@@ -71,8 +71,6 @@ Label data indicating whether a student solved a problem correctly.
 | `exercise_id` | Problem ID            |
 | `label`       | Binary label (0 or 1) |
 
-Note: These files must be properly aligned by `x_user_id` and `exercise_id`.
-
 ---
 
 ## Training
@@ -102,13 +100,5 @@ Validation Metrics - Accuracy: 0.81, Precision: 0.79, Recall: 0.83, F1 Score: 0.
 
 ---
 
-## Citation
-
-If you use this code for your research, please cite appropriately. (Add your citation format here)
-
----
-
 ## Contact
-
-For questions or feedback, feel free to contact the repository owner or open an issue.
 xxxdokki@snu.ac.kr
