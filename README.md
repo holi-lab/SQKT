@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 ## Data Format
 
-The model requires four types of CSV files per dataset. These are usually located under a folder like `data/18818/`.
+The model requires four types of CSV files per dataset. These are usually located under a folder like `data/`.
 
 ### 1. `exercises.csv`
 
@@ -75,37 +75,11 @@ Note: These files must be properly aligned by `x_user_id` and `exercise_id`.
 
 ---
 
-## Running the Code
-
-### Training
+## Training
 
 ```bash
-python main.py \
-    --batch_size 16 \
-    --num_epochs 10 \
-    --learning_rate 3e-5 \
-    --tokenizer_name Salesforce/codet5-small
+python main.py 
 ```
-
-Other arguments:
-
-| Argument         | Description                          | Default |
-| ---------------- | ------------------------------------ | ------- |
-| `--d_model`      | Embedding dimension for the model    | 512     |
-| `--num_heads`    | Number of attention heads            | 8       |
-| `--num_layers`   | Number of transformer encoder layers | 6       |
-| `--ffn_hidden`   | Feedforward network hidden size      | 3072    |
-| `--dropout_rate` | Dropout rate                         | 0.1     |
-| `--max_len`      | Max sequence length                  | 1024    |
-| `--cross`        | Use cross-domain setting             | False   |
-
----
-
-## Model Components
-
-* Transformer Encoder: Encodes the sequence of code submissions and textual information.
-* CodeT5 (Encoder-Decoder): Generates teacher responses from student questions.
-* Custom Loss Function: Combines prediction loss, triplet contrastive losses, and CodeT5 generation loss.
 
 ---
 
